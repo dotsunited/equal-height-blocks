@@ -31,12 +31,6 @@ if (!Modernizr.testAllProps('flexWrap')) {
 }
 ```
 
-Dependencies
-------------
-
-* jQuery
-* Modernizr (See [modernizr-config.json](modernizr-config.json))
-
 License
 -------
 
