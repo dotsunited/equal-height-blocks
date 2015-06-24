@@ -1,0 +1,18 @@
+{
+  "name": "dotsunited-equal-height-blocks",
+  "title": "Equal Height Blocks",
+  "description": "Flexbox Based Responsive Equal Height Blocks With JavaScript Fallback.",
+  "author": {
+    "name": "Jan Sorgalla",
+    "url": "jan.sorgalla@dotsunited.de"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotsunited/equal-height-blocks.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "jquery": ">=1.7"
+  }
+}

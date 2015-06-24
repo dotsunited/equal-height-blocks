@@ -1,0 +1,9 @@
+{
+  "options": [
+    "domPrefixes",
+    "testAllProps"
+  ],
+  "feature-detects": [
+    "css/flexwrap"
+  ]
+}
