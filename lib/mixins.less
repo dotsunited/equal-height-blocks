@@ -1,10 +1,16 @@
-.dotsunited-equal-height-blocks-container() {
+.dotsunited-equal-height-blocks-flex() {
     display: flex;
+    // Force -webkit-flex, autoprefixer seems to use -webkit-box
+    display: -webkit-flex;
+}
+
+.dotsunited-equal-height-blocks-container() {
+    .dotsunited-equal-height-blocks-flex();
     flex-wrap: wrap;
 }
 
 .dotsunited-equal-height-blocks-item() {
-    display: flex;
+    .dotsunited-equal-height-blocks-flex();
 
     > * {
         max-width: 100%;
