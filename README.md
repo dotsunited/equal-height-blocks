@@ -23,11 +23,11 @@ if (!Modernizr.testAllProps('flexWrap')) {
 @import "~dotsunited-equal-height-blocks/lib/mixins";
 
 .list {
-    .equal-height-blocks-container();
+    .dotsunited-equal-height-blocks-container();
 }
 
 .list__item {
-    .equal-height-blocks-item();
+    .dotsunited-equal-height-blocks-item();
 }
 ```
 
