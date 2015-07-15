@@ -24,10 +24,23 @@ if (!Modernizr.testAllProps('flexWrap')) {
 
 .list {
     .dotsunited-equal-height-blocks-container();
+    
+    // If the list item is not a direct descendant if the list element, apply
+    // the item wrapper mixin to all wrapper elements, eg. for a html
+    // structure like:
+    //
+    // <ul class="list">
+    //   <li>
+    //     <div class="list__item">...</div>
+    //   </li>
+    // </ul>
+    /*li {
+        .dotsunited-equal-height-blocks-item-wrapper();
+    }*/
 }
 
 .list__item {
-    .dotsunited-equal-height-blocks-item();
+    background: #eee;
 }
 ```
 
