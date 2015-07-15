@@ -19,7 +19,7 @@ if (!Modernizr.testAllProps('flexWrap')) {
 }
 ```
 
-```css
+```less
 @import "~dotsunited-equal-height-blocks/lib/mixins";
 
 .list {
