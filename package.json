@@ -4,7 +4,7 @@
   "description": "Flexbox Based Responsive Equal Height Blocks With JavaScript Fallback.",
   "author": {
     "name": "Jan Sorgalla",
-    "url": "jan.sorgalla@dotsunited.de"
+    "email": "jan.sorgalla@dotsunited.de"
   },
   "version": "3.0.1",
   "repository": {
